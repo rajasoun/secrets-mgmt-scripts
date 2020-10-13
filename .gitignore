@@ -1,0 +1,4 @@
+.env
+bash-it/
+Pipfile
+Pipfile.lock

@@ -1,4 +1,5 @@
 .env
-bash-it/
 Pipfile
 Pipfile.lock
+.vscode
+bash-it

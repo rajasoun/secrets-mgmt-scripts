@@ -3,7 +3,7 @@
 set -eo pipefail
 IFS=$'\n\t'
 
-docker run --rm -it \
+sudo docker run --rm -it \
         -v "${PWD}/:/secrets-mgmt-scripts" \
         -v "${HOME}/.awsvault:/root/.awsvault" \
         -v "${HOME}/.aws:/root/.aws" \

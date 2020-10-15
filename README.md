@@ -21,7 +21,8 @@ Once inside the docker snap-shell for genric house keeping
 
 ```
 $ cd /secrets-mgmt-scripts
-$ ./assist.bash
+$ ./assist.bash setup
+$ ./assist.bash debug check
 ```
 
 Verify Refernce Impementation
@@ -29,6 +30,13 @@ Verify Refernce Impementation
 ```
 $ ./run.bash
 $ cd /secrets-mgmt-scripts/refrence-implementation/php/
+```
+
+Setup env properties
+AWS_REGION=<aws_region_to_connect_to>
+SECRET_NAME=<secert_name_with_full_arn>
+
+```
 $ ./setup.bash
 $ ./run.bash
 ```

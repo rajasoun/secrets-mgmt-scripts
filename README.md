@@ -17,9 +17,18 @@ To bash into the snap-shell docker (It has tools for aws-vault etc)
 $ ./run.sh
 ```
 
-Once inside the docker snap-shell 
+Once inside the docker snap-shell for genric house keeping
 
 ```
 $ cd /secrets-mgmt-scripts
 $ ./assist.bash
+```
+
+Verify Refernce Impementation
+
+```
+$ ./run.bash
+$ cd /secrets-mgmt-scripts/refrence-implementation/php/
+$ ./setup.bash
+$ ./run.bash
 ```

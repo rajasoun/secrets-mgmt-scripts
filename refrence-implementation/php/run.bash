@@ -2,5 +2,4 @@
 
 source .env
 AWS_VAULT=
-_AWS_PROFILE=cloud-admin
-aws-vault --backend=file exec cloud-admin -- php GetCredentials.php
+aws-vault --backend=file exec $_AWS_PROFILE --no-session -- php GetCredentials.php
